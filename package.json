@@ -28,6 +28,8 @@
     "graphql": "^15.8.0",
     "pg": "^8.8.0",
     "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.0",
+    "tscpaths": "^0.0.9",
     "type-graphql": "^1.1.1"
   },
   "mikro-orm": {
