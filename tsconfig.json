@@ -24,7 +24,8 @@
     "baseUrl": "src",
     "paths": {
       "src": ["src/*"],
-      "entities": ["entities/*"]
+      "entities": ["src/entities/*"],
+      "resolvers": ["src/resolvers/ *"]
     }
   },
   "exclude": ["node_modules"],
