@@ -25,23 +25,23 @@ __decorate([
 ], User.prototype, "id", void 0);
 __decorate([
     (0, type_graphql_1.Field)(() => String),
-    (0, core_1.Property)({ type: "date" }),
+    (0, core_1.Property)({ type: 'date' }),
     __metadata("design:type", Object)
 ], User.prototype, "createdAt", void 0);
 __decorate([
     (0, type_graphql_1.Field)(() => String),
-    (0, core_1.Property)({ type: "date", onUpdate: () => new Date() }),
+    (0, core_1.Property)({ type: 'date', onUpdate: () => new Date() }),
     __metadata("design:type", Object)
 ], User.prototype, "updatedAt", void 0);
 __decorate([
     (0, type_graphql_1.Field)(),
-    (0, core_1.Property)({ type: "text", unique: true }),
+    (0, core_1.Property)({ type: 'text', unique: true }),
     __metadata("design:type", String)
 ], User.prototype, "username", void 0);
 __decorate([
-    (0, core_1.Property)({ type: "text" }),
+    (0, core_1.Property)({ type: 'text' }),
     __metadata("design:type", String)
-], User.prototype, "passowrd", void 0);
+], User.prototype, "password", void 0);
 User = __decorate([
     (0, type_graphql_1.ObjectType)(),
     (0, core_1.Entity)()
